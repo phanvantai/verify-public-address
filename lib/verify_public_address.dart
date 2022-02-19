@@ -1,7 +1,8 @@
 library verify_public_address;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/api/api.dart';
+export 'src/crypto/crypto.dart';
+export 'src/exceptions/exceptions.dart';
+export 'src/network/network.dart';
+export 'src/session/session.dart';
+export 'src/wallet_connect.dart';
