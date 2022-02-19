@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:verify_public_address/src/session/peer_meta.dart';
-import 'package:verify_public_address/src/wallet_connect.dart';
+import 'package:verify_public_address/verify_public_address.dart';
 
 void main() {
   runApp(const MyApp());
